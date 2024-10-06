@@ -7,7 +7,7 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "GUESSING GAME ",
   "dependencies": {
     "live-server": "^1.1.0"
   }
