@@ -46,6 +46,7 @@ document.addEventListener('keydown', function (event) {
 
     // when guess is correct
     checkGuess(guess);
+    console.log(guess);
   }
 });
 
