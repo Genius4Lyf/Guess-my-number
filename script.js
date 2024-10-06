@@ -1,7 +1,6 @@
 'use strict';
 
 // // setting a value on an input
-//
 let score = Number(document.querySelector('.score').textContent);
 let number = Math.trunc(Math.random() * 20) + 1;
 let highscore = Number(document.querySelector('.highscore').textContent);
