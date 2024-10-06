@@ -9,6 +9,7 @@
   "license": "ISC",
   "description": "GUESSING GAME ",
   "dependencies": {
-    "live-server": "^1.1.0"
+    "live-server": "^1.1.0",
+    "parcel": "^2.12.0"
   }
 }
