@@ -26,7 +26,7 @@ const checkGuess = function (guess) {
   }
   // when guess is not correct
   if (guess !== number) {
-    sendMessage(guess > number ? '📈Too high!' : 'too low'); //checks which message to send when guess is not equal to the number, if guess is greater than the number, it calls the function with the argument 'Too High' and if guess is lesser than number, it calls the function with the argument 'too low'
+    sendMessage(guess > number ? '📈Too HIGH!' : 'too LOW'); //checks which message to send when guess is not equal to the number, if guess is greater than the number, it calls the function with the argument 'Too High' and if guess is lesser than number, it calls the function with the argument 'too low'
     if (!score) {
       sendMessage('💥🤯You lost the Game!'); //if the score value gets to 0, in the game, it will respond with You lost the game
     } else {
